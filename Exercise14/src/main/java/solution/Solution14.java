@@ -5,7 +5,7 @@
 
 // Print statements asking for order amount and state (IN METHOD)
 // Use 1 if statement to check if string input for state is wi, if it is include tax, if not don't (IN METHOD)
-// Print final statements 
+// Print final statements
 
 package solution;
 
