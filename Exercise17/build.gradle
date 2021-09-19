@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 plugins {
     id 'java'
     id 'application'
@@ -25,4 +26,33 @@ run {
 
 application {
     mainClass = "solution.Solution17"
+=======
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+run {
+    standardInput = System.in
+}
+
+application {
+    mainClass = "solution.Solution17"
+>>>>>>> 7c476d894d0062824735a1a32c3bd314a59773e0
 }
