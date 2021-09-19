@@ -6,7 +6,7 @@
 // Print statements asking for all the info (IN METHOD)
 // Use if statements to get the right r value depending on male or female
 // Calculate BAC (IN METHOD)
-// Use if statements to print whether it is legal or not to drive
+// use if statements to print whether it is legal or not to drive
 
 package solution;
 
